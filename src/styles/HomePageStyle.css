@@ -1,0 +1,246 @@
+/*Landing Page content*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+/*banner*/
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 5rem; padding-right: 5rem;
+    padding-top: 3rem; padding-bottom: 4rem;
+}
+
+.banner-text {
+    padding-left: 7rem;
+    width: 50%;
+    text-align: left;
+}
+
+.banner h1 {
+    color: #333;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.banner button {
+    width: 35%;
+    height: 3rem;
+    font-size: 1rem;
+    border-style: none;
+    border-radius: 40px;
+    color: white;
+    background-color: #5271FF;
+    font-weight: lighter;
+}
+
+.banner img {
+    width: 50%;
+}
+
+.banner button:hover {
+    background-color: #333;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+/*shop features*/
+
+.shop-features-section {
+    padding-top: 3rem; padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.shop-features-section h2 {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.shop-features-div {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-left: 1rem; margin-right: 1rem;
+}
+
+.shop-feature-div {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.shop-feature-div img {
+    width: 100%;
+    max-width: 4em;
+    margin-right: 1.5rem;
+}
+
+.shop-feature-div-description {
+    height: 8rem;
+}
+
+.shop-feature-div h3 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.shop-feature-div p {
+    font-size: 0.8rem;
+    color: #7D7C7C;
+}
+
+/*additional features*/
+
+.additional-features-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3rem; padding-top: 3rem;
+    background-color: #F5F7F8;
+}
+
+.additional-feature-div {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.additional-feature-div-img-shipping {
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    background-color: #C2D9FF;
+}
+
+.additional-feature-div-img-support {
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    background-color: #FBECB2;
+}
+
+.additional-feature-div-img-payment {
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    background-color: #D0E7D2;
+}
+
+.additional-feature-div h3 {
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.additional-feature-div p {
+    font-size: 0.8rem;
+    text-align: justify;
+    color: #7D7C7C;
+}
+
+@media (max-width: 62rem) {
+    .banner {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 4rem;
+        padding-left: 0; padding-right: 0;
+        margin: 0;
+    }
+
+    .banner img {
+        margin-bottom: 1.5rem;
+    }
+
+    .banner-text {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .banner h1 {
+        padding: 0;
+        color: #333;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner button {
+        width: 20%;
+        height: 2.5rem;
+        font-size: 0.9rem;
+    }
+
+    .shop-features-section {
+        display: inline-block;
+        padding-top: 0;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    
+    .shop-features-section h2 {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    
+    .shop-features-div {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .shop-feature-div img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .shop-feature-div-description {
+        height: 5rem;
+    }
+
+    .additional-features-section {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .additional-feature-div {
+        display: flex;
+        margin-left: 1rem; margin-right: 1rem;
+        justify-content: left;
+    }
+}
+
+@media (max-width: 58rem) {
+    .banner button {
+        width: 20%;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+}

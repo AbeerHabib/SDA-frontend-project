@@ -1,0 +1,198 @@
+/*login and signup pages*/
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #5271FF;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #5271FF;   
+}
+
+.login {
+    display: flex;
+    width: 100%;
+}
+
+.login-img {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem; padding-bottom: 1rem;
+}
+
+.signup-img {
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem; padding-bottom: 3rem;
+}
+
+.login-details {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #F5F7F8;
+}
+
+.login-details-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 4rem;
+}
+
+.login-details-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.login-details-title p {
+    font-size: 0.9rem;
+}
+
+.login-details-input {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.login-details-input input {
+    padding: 1rem;
+    width: 50%;
+    border-left: none; border-right: none; border-top: none;
+    border-color: #333;
+    margin-bottom: 1rem;
+    background-color: #F5F7F8;
+}
+
+.login-details-input input::placeholder {
+    color: #333;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.login-details-btn {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.login-details-btn button {
+    width:55%; height: 3rem;
+    padding: 0.4rem;
+    border-width: 0;
+    border-style: none;
+    border-radius: 30px;
+    background-color: #5271FF;
+    color: white;
+    font-size: 1rem;
+}
+
+.login-details-btn button:hover {
+    border-width: 0;
+    border-style: none;
+    background-color: #333;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.login-details-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.login-details-signup p {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+.login-details-signup-link {
+    text-decoration: none !important;
+    color: #5271FF;
+    font-weight: bold;
+    padding-left: 0.3rem;
+}
+
+.error-message {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 55%;
+}
+
+.error-message p {
+    font-size: 0.8rem;
+    color: red;
+}
+
+.user-name-div {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+    width: 100%;
+}
+
+.signup-details-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 4rem;
+}
+
+.signup-details-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+}
+
+@media (max-width: 80rem) {
+    .signup-details-title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 60rem) {
+    .signup-details-title h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 50rem) {
+    .login-img {
+        display: none;
+    }
+    .signup-img {
+        display: none;
+    }
+    .login-details-title h1 {
+        font-size: 1.8rem;
+    }
+    .signup-details-title h1 {
+        font-size: 1.8rem;
+    }
+}
