@@ -24,7 +24,7 @@ const Home = () => {
         <div className="shop-features-div">
 
           <div className="shop-feature-div">
-            <img src="public/images/computer.png" />
+            <img src="/images/computer.png" />
             <div className="shop-feature-div-description">
                 <h3>Extensive Selection</h3>
                 <p>An extensive selection of high-quality electronics, ranging from the latest smartphones and laptops to cutting-edge gadgets and accessories.</p>
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
 
           <div className="shop-feature-div">
-            <img src="/public/images/quality.png" />
+            <img src="/images/quality.png" />
             <div className="shop-feature-div-description">
               <h3>Trusted Quality</h3>
               <p>we prioritize quality and reliability. we aim to provide our customers with electronics that they can trust and enjoy for years to come.</p>
@@ -40,7 +40,7 @@ const Home = () => {
           </div>
 
           <div className="shop-feature-div">
-            <img src="public/images/price.png" />
+            <img src="/images/price.png" />
             <div className="shop-feature-div-description">
               <h3>Competitive Prices</h3>
               <p>We offer competitive prices on all our products without compromising on quality.</p>
@@ -48,7 +48,7 @@ const Home = () => {
           </div>
 
           <div className="shop-feature-div">
-            <img src="public/images/search.png" />
+            <img src="/images/search.png" />
             <div className="shop-feature-div-description">
               <h3>Stay Up-to-Date</h3>
               <p>We keep you up-to-date with the latest tech trends and innovations and continuously add new products to our inventory.</p>
@@ -61,7 +61,7 @@ const Home = () => {
         
         <div className="additional-feature-div">
           <div className="additional-feature-div-img-shipping">
-              <img src="public/images/free-shipping.png" alt="" width="40"/>
+              <img src="/images/free-shipping.png" alt="" width="40"/>
           </div>
           
           <div className="additional-feature-div-description">
@@ -72,7 +72,7 @@ const Home = () => {
 
         <div className="additional-feature-div">
           <div className="additional-feature-div-img-support">
-            <img src="public/images/support.png" alt="" width="40"/>
+            <img src="/images/support.png" alt="" width="40"/>
           </div>
               
           <div className="additional-feature-div-description">
@@ -83,7 +83,7 @@ const Home = () => {
 
         <div className="additional-feature-div">
           <div className="additional-feature-div-img-payment">
-            <img src="public/images/security.png" alt="" width="40"/>
+            <img src="/images/security.png" alt="" width="40"/>
           </div>
               
           <div className="additional-feature-div-description">

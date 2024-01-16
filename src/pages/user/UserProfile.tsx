@@ -46,7 +46,7 @@ const UserProfile = () => {
         <div className="profile">
 
           <div className="profile-img-n-title">
-              <img src="/public/images/user.png" alt="" width="90"/>
+              <img src="/images/user.png" alt="" width="90"/>
               <h1>{`${userData?.firstName} ${userData?.lastName}`}</h1>
           </div>
 

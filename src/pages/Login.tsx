@@ -59,7 +59,7 @@ const Login = ({pathName}: {pathName: string}) => {
             <div className="login">
 
                 <div className="login-img">
-                    <img src="public/images/iphone15.png" alt="" width="320"/>
+                    <img src="/images/iphone15.png" alt="" width="320"/>
                 </div>
 
                 <div className="login-details">
