@@ -8,7 +8,7 @@ const Home = () => {
     <div className="container">
 
       <div className="banner">
-        <img src="/public/images/banner.png"/>
+        <img src="/images/banner.png"/>
           
         <div className="banner-text">
           <h1>One stop marketplace for all your tech needs</h1>
